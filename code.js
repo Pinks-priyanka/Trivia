@@ -7,6 +7,7 @@ app.set("view engine", "ejs");
 app.use(express.static('public'))
 const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
+const PORT = process.env.PORT || 5000;
 
 require("dotenv").config({ path: path.resolve(__dirname, ".env") });
 
@@ -84,7 +85,7 @@ app.get("/score",(req,res)=>{
 });
 
 console.log(`Image Web server is running at http://localhost:5500`);
-app.listen(5500);
+app.listen(PORT);
 
 
 
