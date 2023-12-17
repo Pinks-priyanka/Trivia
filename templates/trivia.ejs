@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourites</title>
+    <link rel="stylesheet" href="/css/trivia.css">
+</head>
+<body>
+    <form action="/score">
+        <div id="one"><%-one%><br><br>True: <input type="radio" name="ansOne" value="true" required><br>False: <input type="radio" name="ansOne" value="false" required></div>
+        <div id="two"><%- two%><br><br>True: <input type="radio" name="ansTwo" value="true" required><br>False:<input type="radio" name="ansTwo" value="false" required></div>
+        <div id="three"><%- three%><br><br>True: <input type="radio" name="ansThree" value="true"required> <br>False:<input type="radio" name="ansThree" value="false" required></div>
+        <div id="four"><%- four %><br><br>True: <input type="radio" name="ansFour" value="true"required><br>False:<input type="radio" name="ansFour" value="false" required></div>
+        <div id="five"><%- five %><br><br>True: <input type="radio" name="ansFive" value="true"required><br>False:<input type="radio" name="ansFive" value="false" required></div>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>

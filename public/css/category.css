@@ -1,0 +1,48 @@
+
+.bar{
+    background-color: rgb(110, 39, 88);
+    padding:20px;
+    margin:25px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+body{
+    background-color:rgb(20, 17, 17);
+    color:white;
+    font-size: 22px;
+}
+
+
+div:hover{
+    background-color: rgb(136, 71, 115);
+}
+
+input[type=submit]{
+    font-size: large;
+    border-style: none;
+    padding: 30px;
+    background-color:  rgb(136, 71, 115);
+    border-radius: 20px;
+}
+
+#board{
+    background-color: #fbbebf;
+    background-blend-mode: lighten;
+    height: 500px;
+    margin:20px;
+    border-radius: 20px;
+    text-align: center;
+    color:black;
+}
+
+img{
+    height:550px;
+    width:1000px;
+    margin:50px;
+    margin-left: 250px;
+}
+
+a{
+    color:white;
+}
