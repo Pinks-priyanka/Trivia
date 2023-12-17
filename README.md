@@ -5,4 +5,4 @@ The app allows you to login with a username and password using mongoDB. If you a
 To Generate the questions, we used a trivia api that fetches a json object.
 API links - https://opentdb.com/api_config.php
 Youtube Demo Video - https://youtu.be/WDDvb6o8qFA
-Github: Our file is too large (41MB). We are linking our github to submit the project. Thanks!
+Github: Our file is too large (41MB) excluding node_modules. We are linking our github to submit the project. Thanks!
